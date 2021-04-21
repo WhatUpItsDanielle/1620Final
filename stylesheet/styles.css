@@ -10,10 +10,45 @@ body{
     font-family: 'RocknRoll One', sans-serif;
     background-color: #78BAD2;
     color: #2C074F;
+    text-align: center;
+
 }
 
 h1{
     font-family: 'Indie Flower', cursive;
     background-color: #006783;
     color: white;
+}
+
+#cart{
+    background-color: #FCE0FF;
+    padding-bottom: 5px;
+}
+
+#cart > span{
+    display: inline-grid;
+    justify-content: center;
+}
+
+#albums{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #006783;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width:640px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
 }
