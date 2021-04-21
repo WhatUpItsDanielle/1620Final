@@ -1,7 +1,19 @@
+/* Color references
+blue (background) = #78BAD2
+purple (cart) = #FCE0FF
+dark aqua (accents) = #006783
+dark purple (letters) #2C074F
+*/
+
+
 body{
     font-family: 'RocknRoll One', sans-serif;
+    background-color: #78BAD2;
+    color: #2C074F;
 }
 
 h1{
     font-family: 'Indie Flower', cursive;
+    background-color: #006783;
+    color: white;
 }
